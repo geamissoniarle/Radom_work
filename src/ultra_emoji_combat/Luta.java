@@ -1,6 +1,8 @@
 package ultra_emoji_combat;
-
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
+private String dataF;
 
 public class Luta {
 	//atributos
@@ -22,9 +24,14 @@ public class Luta {
 			this.desafiado=null;
 			this.desafiante=null;
 		}
+		Date data = new Date();
+		SimpleDateFormat formatar = new SimpleDateFormat ("HH:mm:ss " + " dd/MM/yyyy");
+		dataF = formatar.format(data);
 	}
 	public void lutar(){
 		if(this.aprovada){
+			System.out.println("!!!!Luta aprovada!!!!");
+			System.out.println(dataF);
 			System.out.println("###  DESAFIADO ###");
 			this.desafiado.apresentar();
 			System.out.println("###  DESAFIANTE ###");
