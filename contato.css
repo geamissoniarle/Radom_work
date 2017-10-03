@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'FonteLogo';
+	src:url("../_fonts/bubblegum-sans-regular.otf");
+}
+body{
+	background-color: #5CACEE;
+	color: rgba(0,0,0,1);
+
+}
+header#cabecalho {
+	
+	left: 900px; 
+	top:80px;
+	
+}
+header#cabecalho  img#icone{
+	position: absolute;
+	left: 256px; 
+	top:5px;
+	width: 376px;
+	height: 68px;
+}
+div#interface{
+	width: 1000px;
+	background-color: white; 
+	margin: -20px auto 0px auto ;
+	box-shadow: 0px 0px 100px rgba(0,0,0,.5);
+	padding: 10px;
+	
+}
+
+header#cabecalho{
+	
+	height: 150px;
+}
+header#cabecalho h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+nav#Menu{
+	display: block;
+}
+nav#Menu ul{
+	list-style:  none;
+	
+	position: absolute;
+	top: 47px;
+	left: 210px;
+	font-size: 150%;
+
+}
+nav#Menu li{
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	color: red;
+}
+div#campo p{
+	margin-top: -20px;
+	margin-right: 0px;
+	font-family:  sans-serif;
+	font-size: 10px;
+}
+a{
+	font-family: roboto;
+	color: #696969;
+}
+div#campo h1{
+	font-family:  italic;
+
+}
+
+input#nome{
+	
+    left:0%;
+    top:-10%;
+    width:300px;
+    height:30px;
+
+}
+input#email{
+	
+    width:300px;
+    height:30px;
+    margin-top: 10px;
+
+}
+input#endereco{
+	width:300px;
+    height:30px;
+    margin-top: 10px;
+}
+input#numero{
+    	 width:300px;
+    height:30px;
+    margin-top: 10px;
+}
+input#data{
+	 width:300px;
+    height:30px;
+    margin-top: 10px;
+}
+input#telefone{
+	 width:300px;
+    height:30px;
+    margin-top: 10px;
+}
+input#site{
+	 width:300px;
+    height:30px;
+    margin-top: 10px;
+}
+
+button#butao{
+	width:80px;
+    height:30px;
+    margin-top: 20px;
+    background: #8B8682;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    
+}
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+	background-color: #BEBEBE;
+}
+footer#rodape p {
+	text-align: center;
+}
+li :hover {
+    		background: white;
+    		color: #00BFFF;
+
+}

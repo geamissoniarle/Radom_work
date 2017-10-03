@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contato</title>
+	<link rel="stylesheet" type="text/css" href="contato.css"/ >
+	
+	<script src="jquery.js"></script>
+	<script src="jquery.maskedinput.min.js"></script>
+
+	<script>
+			$(document).ready(function(){
+					$("#data").mask("99/99/9999");
+					$("#telefone").mask("(99) 99999-9999");
+			});
+
+	</script>
+</head>
+<body>
+	<hr style="height:3px; border:none; color:#FFFAF0; background-color:green; margin-top: 0px; margin-bottom: 0px;"/>
+	<div id="interface">
+		<header id="cabecalho">
+			<hgroup>
+				
+				
+			</hgroup>
+					<img id="icone" src="htc.png">
+				<nav id="Menu">
+					
+			  			<ul>
+							<li><a href="index.html"><b>Home</b></a></li>
+							<li><a href="#"><b>Products</a></b></li>
+							<li><a href="#"><b>Support</a></b></li>
+							<li><a href="#"><b>Downloads</a></b></li>
+							
+							<li><a href="contato.html"><b>Contacts</b></a></li>
+						</ul>
+
+				</nav>
+		</header>
+			<hr style="height:3px; background-color:green;color: green; margin-top: 0px; margin-bottom: 20px;"/>
+			<div id="campo">
+				<h1>CONTATO</h1>
+				<p color="red">* campos são obrigatórios:</p>
+			</div>
+			<form>
+				<fieldset>
+					
+						<input id="nome" required placeholder="Seu nome:" />*<br>
+						<input id="email" required placeholder="Seu email:" />*<br>	
+						<input id="endereco" type="endereco" required placeholder="Endereço:"/>*<br>
+						<input id="numero" type="text" name="numero" size="4" required placeholder="Número:">*<br>
+					    <input type="text" id="data" required placeholder="Dia/Mês/Ano" />*<br>
+					    <input type="text" id="telefone" required placeholder="Telefone:(xx) xxxxx.xxxx" />*<br>
+					    <input id="site" required placeholder="Endereço do seu site:" />*<br>
+
+					    <input type="range" min="-100" max="100" value="0" step="10" name="power" list="powers">
+						  <datalist id="powers">
+						  <option value="0">
+						  <option value="-30">
+						  <option value="30">
+						  <option value="+50">
+						  </datalist>
+
+
+					    
+					    <button id="butao" type="Enviar"><b>Enviar</b></button>
+						
+
+				</fieldset>
+			</form>
+			<footer id="rodape">
+				<p>Copyright 2017 - by Geamisson Iarle </br>
+				<a href="http://www.htc.com/us/smartphones/htc-u11/" target="_blank">	Htc.com</a> | <a href="https://www.tudocelular.com/HTC/fichas-tecnicas/n3551/HTC-U11.html" target="_blank">Tudocelular.com</a></p>
+			</footer>
+</body>
+</html>

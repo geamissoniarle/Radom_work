@@ -1,44 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>Título da página</title>
-    <meta charset="utf-8">
-    <!--<link rel="stylesheet" href="estilo/nivo-slider.css">-->
-   <!-- <link rel="stylesheet" href="estilo/mi-slider.css">-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trabalho Av1</title>
+	<link rel="stylesheet" type="text/css" href="index.css"/ >
+	<script  src="jquery-3.2.1.min.js"></script>
+	
+	<script src="javas.js"></script>
+	<script src="jquery.cycle.all.js"></script>
+</head>
+<body>
+	<div id="interface">
+		<hr style="height:3px; border:none; color:#FFFAF0; background-color:#708090; margin-top: 0px; margin-bottom: 0px;"/>
+		<header id="cabecalho">
+			<hgroup>
+				
+				
+			</hgroup>
+					<img id="icone" src="htc.png">
+				<nav id="Menu">
+					<hr style="height:2px; border:none; color:#FFFAF0; background-color:#FFFAF0; margin-top: 0px; margin-bottom: 0px;"/>
+			  			<ul>
+							<li><a href="index.html"><b>Home</b></a></li>
+							<li><a href="#"><b>Products</a></b></li>
+							<li><a href="#"><b>Support</a></b></li>
+							<li><a href="#"><b>Downloads</a></b></li>
+							
+							<li><a href="contato.html"><b>Contacts</b></a></li>
+						</ul>
 
-	<link rel="stylesheet" href="estilo/font-awesome.min.css">
- <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Dancing+Script|Satisfy" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+				</nav>
+		</header>
+			<hr style="height:3px; background-color:#708090; margin-top: -20px; margin-bottom: 10px;"/>
+		<div class="slide">
+			<ul>
+				<li><img class="photo" src="img/1.jpg"/></li>
+				<li><img class="photo" src="img/2.jpg"/></li>
+				<li><img class="photo" src="img/3.jpg"/></li>		
+			</ul>
+		</div>
+		<article>
+			<video style="margin-top: -50px; " id="video" width="480" height="360" controls >
+  				<source src="HTC U11 review- a return to glory.mp4"  type="video/mp4" poster="htc.gif">
+			</video>
+		</article>
+
+		<hr style="height:10px; background-color:#708090; margin-top: 10px; margin-bottom: 20px; width: auto;"  />
+		
+		<article id="foto">
+				<h1>Publicity</h1>
+				<figure class="foto">
+					<img src="c.jpg">
+				</figure>
+		</article>
+
+
+
+	<aside id="lateral">
+				<h1>
+A little bit about the Htc U11 ...</h1>
+				<p>
+The 5.5-inch screen puts this HTC at the top of its category. The resolution is also high: 2560x1440 pixel. The features offered by the HTC U11 are many and top of the line. Starting with the LTE 4G that allows data transfer and excellent navigation on the internet, plus Wi-Fi and GPS connectivity present in the handset. It also has multimedia player, videoconference, and bluetooth. We emphasize the excellent internal memory of 64 GB with the possibility of expansion.
+12 megapixel camera. The thickness of only 7.9mm makes the HTC U11 one of the thinnest phones out there. </p>
+	</aside>
+
+	<aside id="lat2">
+				<h1>News about Htc U11...</h1>
+					<div id="novidade1">
+						<h4>The king of mobile photography...</h4>
+
+						<p>The current top of the line HTC, the U11, considered the king of mobile photography, has just been contemplated with a new software update that embarks on important functions - especially for those who use their U11 for filming..</p>
+					</div>
+					<div id="novidade2">
+						<h4>Htc and android Oreo...</h4>
+						<p>
+						
+HTC, which confirmed the Android Oreo for this and other models, had committed to releasing the feature through a system update, and finally fulfilled its word. The news came through a post on Twitter.</p>
+					</div>
+	</aside>
+				<footer id="rodape">
+				<p>Copyright 2017 - by Geamisson Iarle </br>
+				<a href="http://www.htc.com/us/smartphones/htc-u11/" target="_blank">	Htc.com</a> | <a href="https://www.tudocelular.com/HTC/fichas-tecnicas/n3551/HTC-U11.html" target="_blank">Tudocelular.com</a></p>
+			</footer>
+
 	
-    <script  src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/jquery.nivo.slider.pack.js"></script>
-    <!--<script src="js/jquery.nivo.slider.js"></script>-->  
-	  <script type="text/javascript" src="js/javascript.js"></script>
-  
-  </head>
-  <body>
-    
-      <figure class="slider">
-        <ul>
-          <li><img class="foto" src="img/1.jpg" alt=""/></li>
-          <li><img class="foto" src="img/2.jpg" alt="" title="#htmlcaption"/></li>
-          <li><img class="foto" src="img/3.jpg" alt="" title="this is example of a caption"/></li>
-        </ul>
-      </figure>
-    
-    <header>
- 		<span id="button-main" class="fa fa-bars"></span>
- 		<nav class="navigation">
- 			<ul class="menu">
- 				<li class="title-menu">menu</li>
- 				<li><a href="#"><span class="fa fa-home"></span>   inicio </a></li>
- 				<li><a href="#"><span class="fa fa-photo"></span>   portfólio </a></li>
- 				<li><a href="#"><span class="fa fa-tag"></span>   final </a></li>
- 			</ul>	
- 		
-    </nav>
-    </header>
-	
-	
-  </body>
+</body>
 </html>
