@@ -1,0 +1,24 @@
+public class Stacktrace_throws {
+
+	public static void main(String[] args) {
+
+		int[] numero = {4,8,16,32,64,128};
+		int[] denominador = {2,0,4,8,0};
+		
+		for(int i=0;i<numero.length;i++) {
+			
+			try {
+			System.out.println(numero[i]+"/"+denominador[i]+"="+(numero[i]/denominador[i]));
+			}
+			catch(Exception e) {//Exception(tipo de erro) armazenado na var "e" 
+				System.out.println(e.getMessage());//e.getMessage exibe  o erro com poucos detalhes
+				e.printStackTrace();//mostra qual e aonde acontece o erro sem parar a aplicação
+				                    //serve muito ja que as informaçoes de erro e exception estarao no log
+			}
+			
+		}
+
+	}
+
+}
+
