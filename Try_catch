@@ -1,0 +1,26 @@
+public class Try_catch {
+		
+		
+	public static void main(String[] args) {
+	
+		int [] vetor = new int[4];
+		
+		
+		try {
+			System.out.println("antes da exception");
+			
+			vetor [5] = 10;
+			
+			System.out.println("esse texto nao sera impresso");
+		}
+		catch(ArrayIndexOutOfBoundsException exc) {
+			System.out.println("erro ao acessar o indice");
+		}
+			System.out.println("pos exception");
+		
+		
+		
+		
+	} 
+}
+
